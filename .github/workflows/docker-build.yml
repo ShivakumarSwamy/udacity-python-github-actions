@@ -20,3 +20,5 @@ jobs:
         with:
           push: true
           tags: shivakumarswamy/python-helloworld:latest
+      - name: Image digest
+        run: echo ${{ steps.docker_build.outputs.digest }}
