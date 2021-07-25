@@ -19,4 +19,4 @@ jobs:
         id: docker_build
         with:
           push: true
-          tags: python-helloworld:latest
+          tags: shivakumarswamy/python-helloworld:latest
